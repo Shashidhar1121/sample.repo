@@ -1,0 +1,15 @@
+                              WORKFLOW OF THE MANUAL DEPLOYMENT
+
+**from code 
+**sends to the github
+**we pull the code from github(localpull)
+**after that we build an image.
+**after completion of the building we given to that image as tag.
+**then that Docker image to push the dockerhub(repository).
+**when we to want to pull that image (download the image) using this command
+**docker pull <imagename or image id>.
+**when we want to pull the docker image from dockerhub.
+                                 FOR TESTING
+**first we download the docker image using this command **docker pull <imagename:tag>
+**to run that image using this command **docker run --name:<container name> -p <optional port id>:<fixed port id> <image name>.
+**then they test the code.
